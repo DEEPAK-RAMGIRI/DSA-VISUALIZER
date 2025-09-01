@@ -3,6 +3,31 @@ import time
 from Queue.queue_dsa import Queue
 
 def main():
+    
+    st.markdown(
+        """
+        <style>
+            .stApp{
+                    background: linear-gradient(200deg,#511D43,#FDFFB8,#4DFFBE,#63C8FF);
+                    background-size: 180% 180%;
+                    animation: gradient-animation 12s ease infinite;
+                }
+
+                @keyframes gradient-animation {
+                    0% {
+                        background-position: 0% 50%;
+                    }
+                    50% {
+                        background-position: 100% 50%;
+                    }
+                    100% {
+                        background-position: 0% 50%;
+                    }
+                }
+        </style>
+        
+        """,unsafe_allow_html=True
+    )
     if 'queue' not in st.session_state:
         st.session_state.queue = Queue()
 
