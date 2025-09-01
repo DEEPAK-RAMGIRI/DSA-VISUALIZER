@@ -38,18 +38,18 @@ def main():
             chess = queens(N)
             if not chess:
                 st.write(f"NOT POSSIBLE WITH {N} board")
+            # else:
+            #     html_board = '<div style="display: inline-block;">'
             else:
-                html_board = '<div style="display: inline-block;">'
-
-            for i, row in enumerate(chess):
-                html_board += '<div style="display: flex;">'
-                for j, c in enumerate(row):
-                    color = "#f0d9b5" if (i+j)%2==0 else "#b58863" 
-                    piece = '👑' if c=='Q' else ""
-                    html_board += f'<div style="width:50px; height:50px; background-color:{color}; display:flex; align-items:center; justify-content:center; font-size:30px;">{piece}</div>'
+                for i, row in enumerate(chess):
+                    html_board += '<div style="display: flex;">'
+                    for j, c in enumerate(row):
+                        color = "#f0d9b5" if (i+j)%2==0 else "#b58863" 
+                        piece = '👑' if c=='Q' else ""
+                        html_board += f'<div style="width:50px; height:50px; background-color:{color}; display:flex; align-items:center; justify-content:center; font-size:30px;">{piece}</div>'
+                    html_board += '</div>'
                 html_board += '</div>'
-            html_board += '</div>'
 
-            st.markdown(html_board, unsafe_allow_html=True)
+                st.markdown(html_board, unsafe_allow_html=True)
         else:
             st.markdown("<p style='color:red;'>Please enter a valid number for the board size..</p>", unsafe_allow_html=True)
