@@ -9,7 +9,7 @@ from SUDOKU import sudokumain
 with st.sidebar:
     selected = option_menu(
         menu_title = None,
-        options = ["Home","Stack","Queue",'LRU','N queens','Sudoku'],
+        options = ["Home","Stack","Queue",'N queens','Sudoku'],
         default_index = 0,
     )
 
