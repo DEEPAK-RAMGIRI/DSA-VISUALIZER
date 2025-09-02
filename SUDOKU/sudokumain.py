@@ -8,8 +8,8 @@ def main():
         """
         <style>
             .stApp{
-                    background: linear-gradient(250deg,#FFFF80,#FFAA80,#FF5580,#FF0080);
-                    background-size: 180% 180%;
+                    background: linear-gradient(135deg, #00f260, #0575e6, #ff00cc);
+                    background-sixze: 180% 180%;
                     animation: gradient-animation 7s ease infinite;
                 }
 
