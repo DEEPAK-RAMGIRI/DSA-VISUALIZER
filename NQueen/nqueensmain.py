@@ -37,10 +37,10 @@ def main():
             N = int(N)
             chess = queens(N)
             if not chess:
-                st.write(f"NOT POSSIBLE WITH {N} board")
-            # else:
-            #     html_board = '<div style="display: inline-block;">'
+                st.markdown(f"<p style='color:orange;'>NOT POSSIBLE WITH {N} board</p>", unsafe_allow_html=True)
+
             else:
+                html_board = '<div style="display: inline-block;">'
                 for i, row in enumerate(chess):
                     html_board += '<div style="display: flex;">'
                     for j, c in enumerate(row):
@@ -53,3 +53,6 @@ def main():
                 st.markdown(html_board, unsafe_allow_html=True)
         else:
             st.markdown("<p style='color:red;'>Please enter a valid number for the board size..</p>", unsafe_allow_html=True)
+
+if __name__ == "__main__":
+    main()
