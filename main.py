@@ -3,6 +3,7 @@ from streamlit_option_menu import option_menu
 from Stack import stackmain
 from Queue import queuemain
 from NQueen import nqueensmain
+from SUDOKU import sudokumain
 
 
 with st.sidebar:
@@ -24,6 +25,9 @@ elif selected == "Queue":
 
 elif selected == "N queens":
     nqueensmain.main()
+    
+elif selected == "Sudoku":
+    sudokumain.main()
     
     
     
