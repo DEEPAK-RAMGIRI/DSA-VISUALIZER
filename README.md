@@ -3,17 +3,16 @@
   
 **Note:** The app may take a few seconds to load due to inactivity on the free Streamlit hosting service.
   
-👉[DSA-VISULAIZER](https://dsa-visualizer-cmsy8ym4xzzjs8nnmel4jh.streamlit.app/)   
+**Live Demo** [DSA-VISULAIZER](https://dsa-visualizer-cmsy8ym4xzzjs8nnmel4jh.streamlit.app/)   
 
 ![project photo](https://github.com/DEEPAK-RAMGIRI/DSA-VISUALIZER/blob/main/page.png)
 
-### 🛠️ Tech Stack
+### Tech Stack
 - **Python** -  Backend & Code Part
 - **Streamlit** - Simple Frontend
 - **Streamlit Option Menu** - for Smooth Navigation
 
-
-### 📱 Features
+### Features
 
  - **Stack Visualization** – Push, pop, and display operations interactively.
 
@@ -23,7 +22,7 @@
 
  -  **Sudoku Solver & Validator** – Enter a Sudoku puzzle, check validity, and see it solved step by step.
 
-### 📂 Folder Structure
+### Folder Structure
 
 ```plaintext
 DSA-VISUALIZER /
