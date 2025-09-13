@@ -2,6 +2,8 @@
 - **DSA-VISUALIZER** is is a self-developed project where I showcase my understanding of Data Structures and Algorithms (DSA) by writing the implementations and adding a simple UI using Streamlit. The focus is on learning and demonstrating core DSA concepts with some visual representation.
   
 **Note:** The app may take a few seconds to load due to inactivity on the free Streamlit hosting service.
+
+for better experience open in the laptop
   
 **Live Demo** [DSA-VISULAIZER](https://dsa-visualizer-cmsy8ym4xzzjs8nnmel4jh.streamlit.app/)   
 
